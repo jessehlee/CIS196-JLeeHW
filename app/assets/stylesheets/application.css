@@ -1,0 +1,95 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+ *= require_tree .
+ */
+
+
+
+body{
+	margin: 0;
+/*	padding-top: 40px;*/
+	font-family: arial,sans-serif; 
+	font-size: 13px;
+	line-height: 24px;
+	display: block;
+}
+
+.nav{
+	position: fixed;
+	width: 100%;
+	height: 60px;
+	padding-left: 15px;
+	padding-right: 30px;
+}
+
+/* solved issue of white space above <body> tag - seemed to be "margin collapsing" issue */
+h1{
+	margin-top: 0;
+}
+
+/* gets rid of bullets in front of items in list */
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#rightlinks{
+	float: right;
+	margin-right: 2%;
+	margin-top: 16px;
+	line-height: 28px;
+}
+
+/* display list items horizontally */
+.nav li{
+	display: inline;
+	padding-left: 15px;
+	line-height: 28px;
+}
+
+.rightlinks li{
+	height: 28px;
+}
+
+/* edit link colors */
+.nav-link{
+	color: #404040;
+	text-decoration: none;
+}
+
+#linktodocs a{
+	background-image: url('//ssl.gstatic.com/gb/images/v1_53a1fa6a.png');
+	background-size: 536px 341px;
+	background-position: -431px -249px;
+	color: transparent;
+/*	background-position: -431px -242px;*/
+}
+
+#linktoalerts a{
+	background-image: url('//ssl.gstatic.com/gb/images/v1_53a1fa6a.png');
+	background-size: 536px 341px;
+	background-position: -469px -249px;
+	color: transparent;
+/*	background-position: -431px -242px;*/
+}
+
+#sharelink a{
+	background-color: rgba(0,0,0,.04);
+}
+
+#accountlink a{
+	background-image: url('https://lh6.googleusercontent.com/-eyfB6Z7EBxA/AAAAAAAAAAI/AAAAAAAAAAA/KtWOkNGxBns/s32-c/photo.jpg');
+	border-radius: 150px;
+	color: transparent;
+}
+

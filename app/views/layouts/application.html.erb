@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hw2cis</title>
+  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+	<div class="navbar">
+		<ul class="nav">
+			<div id="rightlinks">
+				<li><a class="nav-link" href="https://plus.google.com/u/0/?tab=wX">+Jesse</a></li>
+				<li><a class="nav-link" href="https://mail.google.com/mail/?tab=wm&authuser=0">Gmail</a></li>
+				<li><a class="nav-link" href="https://www.google.com/imghp?hl=en&tab=wi&authuser=0&ei=73XsUuy4LqiqsATfkoDoBA&ved=0CAQQqi4oAg">Images</a></li>
+				<li id="linktodocs"><a class="nav-link" href="http://www.google.com/intl/en/options/">docs</a></li>
+				<li id="linktoalerts"><a class="nav-link" href="https://plus.google.com/u/0/notifications/all?hl=en">aler</a></li>
+				<li id="sharelink"><a class="nav-link" href="https://plus.google.com/u/0/stream/all?hl=en">Share</a></li>
+				<li id="accountlink"><a class="nav-link" href="https://plus.google.com/u/0/me?tab=wX&authuser=0">link</a></li>
+			</div>
+		</ul>
+	</div>
+
+
+
+
+
+<%= yield %>
+
+</body>
+</html>
