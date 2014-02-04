@@ -37,6 +37,7 @@ TECHNICAL: Create a database of reviewers with different professional background
 TECHNICAL: Make specific channels where multiple people can join and upload pictures/memes.  
 
 * 'Everyday is a PicDay': It's nice to take a picture.  It's nice to take a picture and get a few "likes".  But it's even BETTER to take a picture and get the undisputed badge of "Pic of the Day".  'Everyday is a PicDay' is a daily competition entered in by a group of friends.  Everyday they upload a picture to the website for everyone to see.  At 10pm, each member of the group votes for their favorite picture, with the identity of the photographer removed.  Whichever picture has the most tallies wins Pic of the Day with the photographer eventually being revealed.  This competition occurs every day.  
+TECHNICAL: Allow upload of picture everyday.  Enable voting.  
 
 
 
