@@ -22,9 +22,21 @@ Added three main divs: title, search bar, and search bar buttons.  Added Google 
 
 * Div Height
 
-I've spent hours on this and still can't quite figure out how to adjust the height of my individual li units in my navbar.  I wanted to increase the height so that the full pictures show up, but couldn't find a way to do it.
+I've spent hours on this and still can't quite figure out how to adjust the height of my individual li units in my navbar.  I wanted to increase the height so that the full pictures show up, but couldn't find a way to do it.  Best work around I had was increasing the font sizes on the link text.
 
 * Vertical Alignment
 
 It is a pain to vertical align.  I was hoping you could easily center a unit vertically, but I couldn't find a function that allowed you to do it.  I had to precisely calculate the margin I needed.
+
+== Project Ideas
+
+* 'Resume Service': Today, you can pay up to $400 to get a professional writer to review you resume.  We believe that you can get a lot more help at a much lower price talking with someone who has actually worked at that company and knows what they look for.  'Resume Service' allows you to search across a large collection of individuals to find the one who would be the best fit for your specific recruiting goals.  Select the best reviewer who will help get your application materials in the best shape possible.
+TECHNICAL: Create a database of reviewers with different professional backgrounds.  Create a web site allowing users to put in different industry fields and search for reviewers that fit their job serach.  Then user can select reviewer that best fits them and go through payment/resume upload, etc.
+
+* 'Meme TV': On the internet, memes have become its own unique language.  However, there is no place to help organize meme communication around groundbreaking topics: the Voice, the Bachelor, football games, presidential debates.  'Meme TV' provides channels for people to talk live about a specific event.  Speaking in Memes is clearly the preferred language of choice.
+TECHNICAL: Make specific channels where multiple people can join and upload pictures/memes.  
+
+* 'Everyday is a PicDay': It's nice to take a picture.  It's nice to take a picture and get a few "likes".  But it's even BETTER to take a picture and get the undisputed badge of "Pic of the Day".  'Everyday is a PicDay' is a daily competition entered in by a group of friends.  Everyday they upload a picture to the website for everyone to see.  At 10pm, each member of the group votes for their favorite picture, with the identity of the photographer removed.  Whichever picture has the most tallies wins Pic of the Day with the photographer eventually being revealed.  This competition occurs every day.  
+
+
 
