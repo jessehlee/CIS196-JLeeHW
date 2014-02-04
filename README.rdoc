@@ -1,28 +1,30 @@
-== README
+== Heroku
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+http://limitless-basin-6871.herokuapp.com/
 
-Things you may want to cover:
+== What I Did and Issues I Had
 
-* Ruby version
+* Setup application.html file
 
-* System dependencies
+Added navigation bar to application.html file, which included Google+, Gmail, Iamges, Application, Alerts, Share, and Accounts links.  Edited links so that they appear similar to Google webpage (black font).  Added pictures for Alerts, Share, and Accounts links.
 
-* Configuration
+* Adjusted application.css file to fine tune layout and display of navigation bar section
 
-* Database creation
+Got rid of issues such as margins between top of pag and nav bar.  Styled it to look like Google webpage.
 
-* Database initialization
+* Setup content in index.html file
 
-* How to run the test suite
+Added three main divs: title, search bar, and search bar buttons.  Added Google logo image to title div.  Added input for search bar.  Added two buttons for search bar buttons section.  
 
-* Services (job queues, cache servers, search engines, etc.)
+* Adjusted home.css file to fine tune layout and display of content section
 
-* Deployment instructions
+== Some Additional Minor Issues I Encountered
 
-* ...
+* Div Height
 
+I've spent hours on this and still can't quite figure out how to adjust the height of my individual li units in my navbar.  I wanted to increase the height so that the full pictures show up, but couldn't find a way to do it.
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+* Vertical Alignment
+
+It is a pain to vertical align.  I was hoping you could easily center a unit vertically, but I couldn't find a function that allowed you to do it.  I had to precisely calculate the margin I needed.
+

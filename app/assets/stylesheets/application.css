@@ -23,6 +23,10 @@ body{
 	display: block;
 }
 
+.navbar{
+	height: 60px;
+}
+
 .nav{
 	position: fixed;
 	width: 100%;
@@ -45,21 +49,20 @@ ul{
 
 #rightlinks{
 	float: right;
-	margin-right: 2%;
+	margin-right: 3.5%;
 	margin-top: 16px;
-	line-height: 28px;
+}
+
+#rightlinks li{
+	height: 100%;
 }
 
 /* display list items horizontally */
 .nav li{
 	display: inline;
 	padding-left: 15px;
-	line-height: 28px;
 }
 
-.rightlinks li{
-	height: 28px;
-}
 
 /* edit link colors */
 .nav-link{
@@ -70,7 +73,8 @@ ul{
 #linktodocs a{
 	background-image: url('//ssl.gstatic.com/gb/images/v1_53a1fa6a.png');
 	background-size: 536px 341px;
-	background-position: -431px -249px;
+	background-position: -431px -245px;
+	font-size: 18px;
 	color: transparent;
 /*	background-position: -431px -242px;*/
 }
@@ -78,7 +82,8 @@ ul{
 #linktoalerts a{
 	background-image: url('//ssl.gstatic.com/gb/images/v1_53a1fa6a.png');
 	background-size: 536px 341px;
-	background-position: -469px -249px;
+	background-position: -462px -237px;
+	font-size: 28px;
 	color: transparent;
 /*	background-position: -431px -242px;*/
 }
@@ -89,7 +94,11 @@ ul{
 
 #accountlink a{
 	background-image: url('https://lh6.googleusercontent.com/-eyfB6Z7EBxA/AAAAAAAAAAI/AAAAAAAAAAA/KtWOkNGxBns/s32-c/photo.jpg');
-	border-radius: 150px;
+	background-size: 32px 32px;
+	background-repeat: no-repeat;
+	background-position: center;
+	border-radius: 100px;
 	color: transparent;
+	font-size: 24px;
 }
 
