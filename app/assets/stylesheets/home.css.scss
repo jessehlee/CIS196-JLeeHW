@@ -4,10 +4,105 @@
 
 
 .content{
-	padding-top: 60px;
+	padding-top: 10px;
 	display: block;
 	text-align: -webkit-center;
 }
+
+.content .heading{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	background: url('white2.png');
+	background-repeat: repeat;
+	width: 240px;
+	padding-top: 0.1px;
+	padding-bottom: 0.1px;
+	border-radius: 15px;
+
+}
+
+#left-align{
+	text-align: left;
+
+}
+
+
+ul li{
+	margin-left: 25px;
+	list-style-type: circle;
+}
+
+.intro{
+	width: 850px;
+	background: url('white2.png');
+	background-repeat: repeat;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	border-radius: 15px;
+}
+
+.linebreak{
+	line-height: 25px;
+	color: white;
+}
+
+.intro h3{
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+.keypoints{
+	text-align: left;
+	margin-left: 22px;
+	margin-right: 22px;
+}
+
+.signup{
+
+	height: 300px;
+
+}
+
+.content .steps{
+	width: 450px;
+	background: url('black.png');
+	background-repeat: repeat;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	border-radius: 15px;
+	color: ghostwhite;
+}
+
+.step1{
+	margin-left: 330px;
+	margin-right: 330px;
+}
+
+.signup{
+	margin-left: 330px;
+	margin-right: 330px;
+	border-radius: 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: black;
+	height: 210px;
+	border-style: solid;
+}
+
+.signup #left-align{
+	margin-left: 80px;
+}
+
+#special pre{
+	margin: 0px;
+}
+
+
+/*.content .steps h2{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}*/
+
 
 .search-bar input{
 	height: 27px;
