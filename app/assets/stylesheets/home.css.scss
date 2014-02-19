@@ -6,7 +6,8 @@
 .content{
 	padding-top: 10px;
 	display: block;
-	text-align: -webkit-center;
+/*	text-align: -webkit-center;*/
+	text-align: center;
 }
 
 .content .heading{
@@ -18,6 +19,9 @@
 	padding-top: 0.1px;
 	padding-bottom: 0.1px;
 	border-radius: 15px;
+	margin-left: auto;
+	margin-right: auto;
+
 
 }
 
@@ -39,6 +43,8 @@ ul li{
 	padding-top: 1px;
 	padding-bottom: 1px;
 	border-radius: 15px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .linebreak{
@@ -71,6 +77,8 @@ ul li{
 	padding-bottom: 1px;
 	border-radius: 15px;
 	color: ghostwhite;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .step1{
